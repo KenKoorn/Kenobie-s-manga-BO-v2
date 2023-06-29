@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+    font-family: ITCAvantGardeStd,Helvetica,sans-serif;
+    height: 150rem;
+    line-height: 1.5;
+  }
+  
+  h1{
+    display: flex;
+    background: #c782c8;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: ITCAvantGardeStd,Helvetica,sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* NAV */
+  
+  nav {
+    background: #c782c8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 5rem;
+
+  }
+
+
+  div {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  #priceValue {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+  #checkbox-price {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #e70cdc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 2rem;
+  }
+
+  #color-filter{
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #e70cdc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 2rem;
+  }
+  
+
+  .button-link{
+    
+  }
+  
+  .nav > img{
+    width: 10rem;
+    height: 5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    height: 8rem;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .shoppingcart{
+    font-size: 5rem;
+    color: white;
+    cursor: pointer;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shoppingcart:hover{
+    background: #7a4d7b;
+  }
+  
+  nav img {
+    width: 15rem;
+    height: 6rem;
+  }
+  
+  nav li {
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+  }
+  
+  /* MAIN */
+  
+  .main {
+      height: 70rem;
+      position: cover;
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  .main section {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      top: 25%;
+      left: 20rem;
+      position: relative;
+      color: rgb(18, 19, 18);
+      font-weight: 800;
+  }
+  
+  .main section h1 {
+      font-size: 3.5rem;
+      text-shadow: 0.2rem 0.2rem 0.4rem white;
+  }
+  
+  .main section p {
+      font-size: 3rem;
+  }
+  
+  .main section button {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: 1.5rem;
+      border: black 2px solid;
+      width: 20rem;
+      font-size: 4rem;
+      padding: 1.5rem;
+      text-decoration: none;
+      font-size: 2rem;
+      color: purple;
+  }
+  
+  .main section button:hover {
+    background: darkmagenta;;
+    color: aliceblue;
+  }
+  
+  .main section button a {
+      font-size: 2rem;
+      text-decoration: none;
+  }
+  
+  .info-section {
+    display: flex;
+  }
+  
+  footer{
+    display: flex;
+    height: 60rem;
+    justify-content: center;
+    align-items: center;
+    background: #c782c8;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10rem;
+  }
+  
+  .footer-image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 2rem;
+    background-image:url(jojo/jojopucci.webp) ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .circle-footer{
+    display: block;
+    top: 50%;
+    left: 50%
+  }
+  
+  .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+    width: 100%;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .inputs > div{
+    display: flex;
+    align-items: center;
+    width: 40rem;
+  
+  }
+  
+  .filter{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    appearance: none;
+    -webkit-appearance: none;
+    background: pink;
+    background: #eee;
+    border: 0.5rem;
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.6);
+  }
+
+  
+  
+  .label:hover{
+    cursor:pointer
+  }
+  
+  .filters:hover{
+    cursor:pointer;
+  }
+  
+  .filter:checked{
+    background:pink;
+  }
+  
+  .filter:checked ~ .label{
+    text-decoration: underline;
+  }
+  
+  .games{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .game{
+    list-style: none;
+    width: 25rem;
+    height: 40rem;
+    transition: 0.2s transform;
+    flex-grow: 1;
+  }
+  
+  .game:hover{
+    transform: scale(1.02) translateY(-0.7rem);
+    cursor: pointer;
+  }
+  
+  .game img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  @keyframes away{
+    from{
+        transform:scaleX(1);
+    }
+    to{
+        transform:scaleX(0);
+    }
+  }
+  
+  @keyframes popup {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    nav li a {
+      font-size: 1rem;
+    }
+
+  }

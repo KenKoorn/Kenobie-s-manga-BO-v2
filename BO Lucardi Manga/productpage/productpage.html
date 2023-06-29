@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto+Slab:wght@200;400;600;800&family=Tomorrow:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="productmain.js" defer></script>
+</head>
+<body>
+    <section id="js--checkOutWindow" class="checkOut a-popup">
+        <ul class="checkOut__list">
+            <li class="checkOut__listItem">
+                <img src="../jojo/jojopucci.webp" alt="Jojo Afbeelding van cover part 2" class="checkOut__image">
+                <p class="checkOut__title">Jojo Pucci part 6</p>
+                <p id="js--amount-champagne1" class="checkOut__amount"></p>
+                <p class="total--price1" id="total--price1"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../jojo/diamond.webp" alt="Jojo Afbeelding van cover part 4" class="checkOut__image">
+                <p class="checkOut__title">Jojo Diamond unbreakable</p>
+                <p id="js--amount-champagne2" class="checkOut__amount"></p>
+                <p class="total--price2" id="total--price2"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../jojo/jojopiller.webp" alt="Jojo Afbeelding van cover part 6" class="checkOut__image">
+                <p class="checkOut__title">Jojo Part 2</p>
+                <p id="js--amount-champagne3" class="checkOut__amount"></p>
+                <p class="total--price3" id="total--price3"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../jojo/araki.webp" alt="Jojo Afbeelding van cover part 2" class="checkOut__image">
+                <p class="checkOut__title">Jojo part 2 Araki</p>
+                <p id="js--amount-champagne4" class="checkOut__amount"></p>
+                <p class="total--price4" id="total--price4"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../jojo/R (2).webp" alt="Jojo Afbeelding van cover part 3" class="checkOut__image">
+                <p class="checkOut__title">Jojo part 3 Stardust</p>
+                <p id="js--amount-champagne5" class="checkOut__amount"></p>
+                <p class="total--price5" id="total--price5"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../jojo/jojostar.webp" alt="Jojo Afbeelding van cover part 3 met alle characters" class="checkOut__image">
+                <p class="checkOut__title">Jojo part 5 Golden wind</p>
+                <p id="js--amount-champagne6" class="checkOut__amount"></p>
+                <p class="total--price6" id="total--price6"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../bluelock1.webp" alt="Afbeelding van manga cover blue lock part 1" class="checkOut__image">
+                <p class="checkOut__title">Blue Lock part 1</p>
+                <p id="js--amount-champagne7" class="checkOut__amount"></p>
+                <p class="total--price7" id="total--price7"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../bluelock2.webp" alt="Afbeelding van manga cover blue lock part 2" class="checkOut__image">
+                <p class="checkOut__title">Blue lock Part 2</p>
+                <p id="js--amount-champagne8" class="checkOut__amount"></p>
+                <p class="total--price8" id="total--price8"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../bluelock8.webp" alt="Afbeelding van manga cover blue lock part 8" class="checkOut__image">
+                <p class="checkOut__title">Blue Lock part 8</p>
+                <p id="js--amount-champagne9" class="checkOut__amount"></p>
+                <p class="total--price9" id="total--price9"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../onepiece69.webp" alt="champagne" class="checkOut__image">
+                <p class="checkOut__title">One piece part 69</p>
+                <p id="js--amount-champagne10" class="checkOut__amount"></p>
+                <p class="total--price10" id="total--price10"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../onepiece61.webp" alt="champagne" class="checkOut__image">
+                <p class="checkOut__title">One piece part 61</p>
+                <p id="js--amount-champagne11" class="checkOut__amount"></p>
+                <p class="total--price11" id="total--price11"></p>
+            </li>
+            <li class="checkOut__listItem">
+                <img src="../onepiece62.webp" alt="champagne" class="checkOut__image">
+                <p class="checkOut__title">One piece part 62</p>
+                <p id="js--amount-champagne12" class="checkOut__amount"></p>
+                <p class="total--price12" id="total--price12"></p>
+            </li>
+            <p  class="total--price" id="total--price" ></p> <a href="productpage.html"><p class="change--product">Verandering</p></a>
+        </ul>
+    </section>
+    <article class="modal a-popup" id="js--shoppingModal">
+        ✓ Added to Cart
+    </article>
+    <button id="js--checkOutButton" class="shoppingCart">
+        🛒
+    <div class="shoppingCart__message">0</div>
+    </button>
+    <main>
+        <ul class="games">
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../jojo/jojopucci.webp" alt="Jojo Afbeelding van cover part 6" class="game__img"></figure>
+                 <section class="games__body">
+                    <h2 class="games__h2">€14,99</h2>
+                    <h3 class="games__h3">Jojo Pucci part 6</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne1" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/naka.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+                
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../jojo/diamond.webp" alt="Jojo Afbeelding van cover part 4" class="game__img"></figure>
+                 <section class="games__body">
+                    <h2 class="games__h2">€14,99</h2>
+                    <h3 class="games__h3">Jojo Diamond unbreakable</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <div class="size-options">
+                        <ul class="size-list">
+                    <button data-product="champagne2" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/naka.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                 </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../jojo/jojopiller.webp" alt="Jojo Afbeelding van cover part 2" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€14,99</h2>
+                    <h3 class="games__h3">Jojo Part 2</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne3" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/naka.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../jojo/araki.webp" alt="Jojo Afbeelding van cover part 2 Araki" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€14,99</h2>
+                    <h3 class="games__h3">Jojo part 2 Araki</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne4" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/naka.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../jojo/R (2).webp" alt="Jojo Afbeelding van cover part 3" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€14,99</h2>
+                    <h3 class="games__h3">Jojo part 3 Stardust</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne5" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/naka.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../jojo/jojostar.webp" alt="Jojo Afbeelding van cover part 5" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€14,99</h2>
+                    <h3 class="games__h3">Jojo part 5 Golden wind</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne6" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/naka.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../bluelock1.webp" alt="Afbeelding van manga cover blue lock part 1" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€19,99</h2>
+                    <h3 class="games__h3">Blue lock part 1</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne7" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/bluelock.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../bluelock2.webp" alt="Afbeelding van manga cover blue lock part 2" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€19,99</h2>
+                    <h3 class="games__h3">Blue lock part 2</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne8" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/bluelock.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../bluelock8.webp" alt="Afbeelding van manga cover blue lock part 8" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€19,99</h2>
+                    <h3 class="games__h3">Blue lock part 8</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne9" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/bluelock.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../onepiece69.webp" alt="Afbeelding van manga cover one piece part 69" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€11.99</h2>
+                    <h3 class="games__h3">One piece 69</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne10" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/onepiece.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../onepiece61.webp" alt="Afbeelding van manga cover one piece part 61" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€11,99</h2>
+                    <h3 class="games__h3">One piece part 61</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne11" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/onepiece.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+            </li>
+            <li class="games__game a-popup">
+                <figure class="game__figure"><img src="../onepiece62.webp" alt="Afbeelding van manga cover one piece part 62" class="game__img"></figure>
+                <section class="games__body"> 
+                    <h2 class="games__h2">€11,99</h2>
+                    <h3 class="games__h3">One piece part 62</h3>
+                    <div class="game__stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+                    <button data-product="champagne12" class="games__button">Add to Cart</button>
+                    <a href="../nakasakicounter/onepiece.html"><button class="detail__button">Details</button></a>
+                    <a href="../index.html"><button class="back__button">Back</button></a>
+                </section>
+        </ul>
+    </main>
+</body>
+</html>

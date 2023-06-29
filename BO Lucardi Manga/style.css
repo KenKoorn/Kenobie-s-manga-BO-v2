@@ -1,0 +1,672 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: ITCAvantGardeStd,Helvetica,sans-serif;
+  height: 480rem;
+  line-height: 1.5;
+}
+
+
+/* NAV */
+
+nav {
+  background: #c782c8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.button-link{
+  
+}
+
+button{
+  cursor: pointer;
+}
+
+.nav > img{
+  width: 10rem;
+  height: 5rem;
+}
+
+nav ul {
+  display: flex;
+  height: 8rem;
+  gap: 3rem;
+  list-style: none;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.shoppingcart{
+  font-size: 5rem;
+  color: white;
+  cursor: pointer;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoppingcart:hover{
+  background: #7a4d7b;
+}
+
+nav img {
+  width: 15rem;
+  height: 6rem;
+}
+
+nav li {
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+}
+
+/* MAIN */
+
+.main {
+    background-image: url("japanesestreetupgrade.png");
+    height: 50rem;
+    position: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main section {
+
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    color: rgb(18, 19, 18);
+}
+
+.main section .header--text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  height: 50%;
+  background: rgba(255, 255, 255, 0.097);
+  border-radius: 1.6rem;
+  box-shadow: 0 0.4rem 3rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5rem);
+  -webkit-backdrop-filter: blur(0.2rem);
+  border: 0.25rem solid rgba(255, 255, 255, 0.3);
+}
+
+.main section h1 {
+    text-shadow: 0.2rem 0.2rem 0.4rem white;
+}
+
+.main section p {
+    font-size: 3rem;
+}
+
+.main section button {
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    width: 20rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: purple;
+}
+
+.main section button:hover {
+  background: darkmagenta;;
+  color: aliceblue;
+}
+
+.main section button a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nakasakihover{
+  
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.bigimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  gap: 5rem;
+}
+
+.bigimage > img{
+  width: 25rem;
+  height: 35rem;
+}
+
+.bigtext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.bigtext h1{
+  font-size: 4rem;
+}
+
+.bigtext p{
+  font-size: 1.5rem;
+}
+
+.bigtext button{
+  padding: 1.5rem;
+  background: white;
+  border-radius: 1rem;
+  border: black 2px solid;
+  height: 7rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: purple;
+}
+
+.bigtext button:hover{
+  background: darkmagenta;
+  color: aliceblue;
+}
+
+.four-image{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.fourimages{
+  display: flex;
+}
+
+.fourimages > img{
+  height: 40rem;
+  width: 30rem;
+
+  position: relative;
+  padding: 2rem;
+}
+
+.step-section {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  width: 100%;
+  padding: 2rem;
+}
+
+.fourstaps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.fourstaps--1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 4/5;
+
+}
+
+.fourstaps--2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+.fourstaps--3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/2;
+  grid-row: 2/3;
+}
+
+.fourstaps--4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.fourstaps--1 figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c782c8;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.fourstaps--2 figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c782c8;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.fourstaps--3 figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c782c8;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.fourstaps--4 figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #c782c8;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+
+.circle-image{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-size: cover;
+  display: inline-block;
+}
+
+.fourstaplargetext{
+  font-size: 2.4rem;
+}
+
+.fourstapsmalltext{
+  font-size: 1.4rem;
+}
+
+.product-function{
+  display: flex;
+  height: 65rem;
+  width: 100%;
+}
+
+.bannertext{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.bannertext > h2{
+  display: flex;
+  justify-content: center;
+ font-size: 4rem;
+ width: 100%;
+ margin-right: 14rem;
+}
+
+.bannertext > p{
+  font-size: 2rem;
+  width: 80%;
+  margin-left: 8rem;
+}
+
+.bannerimage{
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+.bannerimage img{
+  width: 35rem;
+  height: 35rem;
+  gap: 5rem;
+}
+
+.review-banner{
+  display: flex;
+  background: purple;
+}
+
+.section{
+  height: 100rem /* placeholder */;
+}
+
+.section--third{
+  background: white;
+  display: flex;
+  height: auto;
+  padding: 4rem;
+  width: 100vw;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.review:nth-of-type(4), .review:nth-of-type(5), .review:nth-of-type(6){
+  display: none;
+} 
+
+.review{
+  width: 30rem;
+  min-height: 20rem;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  position: relative;
+  border: 0.1rem solid black;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+.quote{
+  font-family: Impact, sans-serif;;
+}
+
+.stars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  border-radius: 50%;
+  background-image: url(R.jpg);
+  background-size: cover;
+  display: inline-block;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-size: cover;
+  display: inline-block;
+}
+
+.stars--1{
+  background-image: url(reviews/indo4.webp);
+}
+
+.stars--2{
+  background-image: url(reviews/indo5.webp);
+}
+
+.stars--3{
+  background-image: url(reviews/indo3.webp);
+}
+
+
+.review > p{
+  font-size: 65%;
+  font-family: ITCAvantGardeStd,Helvetica,sans-serif;
+  padding: 2rem;
+}
+
+footer{
+  display: flex;
+  height: 60rem;
+  justify-content: center;
+  align-items: center;
+  background: #c782c8;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-image img{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.circle-footer{
+  display: block;
+  top: 50%;
+  left: 50%
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.inputs > div{
+  display: flex;
+  align-items: center;
+  width: 40rem;
+
+}
+
+.filter{
+  width: 5rem;
+  height: 5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  background: pink;
+  background: #eee;
+  border: 0.5rem;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.label:hover{
+  cursor:pointer
+}
+
+.filters:hover{
+  cursor:pointer;
+}
+
+.filter:checked{
+  background:pink;
+}
+
+.filter:checked ~ .label{
+  text-decoration: underline;
+}
+
+.games{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  align-items: center;
+}
+
+.game{
+  list-style: none;
+  width: 25rem;
+  height: 40rem;
+  transition: 0.2s transform;
+  flex-grow: 1;
+}
+
+.game:hover{
+  transform: scale(1.02) translateY(-0.7rem);
+  cursor: pointer;
+}
+
+.game img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes away{
+  from{
+      transform:scaleX(1);
+  }
+  to{
+      transform:scaleX(0);
+  }
+}
+
+@keyframes popup {
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 74.375rem){
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+  }
+
+  .button-link{
+    padding: 2rem;
+  }
+
+  .main section{
+    padding: 0rem;
+  }
+
+  .main section .header--text{
+    margin: 2rem;
+  }
+
+  .header--text h1{
+    width: 100%;
+  }
+
+  .header--text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .info-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main section a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .main section button{
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .fourstaps--1 figure{
+    width: 10rem;
+    height: 10rem;
+  }
+  .fourstaps--2 figure{
+    width: 10rem;
+    height: 10rem;
+  }
+  .fourstaps--3 figure{
+    width: 10rem;
+    height: 10rem;
+  }
+  .fourstaps--4 figure{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .fourstaps h2{
+    font-size: 1.5rem;
+  }
+
+  .four-image{
+    height: 50%;
+
+  }
+
+  .product-function{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourimages img{
+    width: 25%;
+    height: 25%;
+  }
+
+  .reviews{
+    width: 100%;
+  }
+
+  .review{
+    width: 100%;
+  }
+
+  .footer-image{
+    width: 25rem;
+    height: 25rem;
+  }
+
+  footer{
+    padding: 2rem;
+  }
+}
